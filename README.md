@@ -18,5 +18,5 @@ It's a simple fat JAR app built using
 
 ### To test
 
-- check of a specific ticker `http://localhost:8080/api/stocks?ticker=AAPL`
-- track ORCL stock `ws://localhost:8080/rt/stocks`
+- check price of a specific ticker `http://localhost:8080/api/stocks?ticker=AAPL`
+- track ORCL stock by hooking onto the following websocket endpoint `ws://localhost:8080/rt/stocks`
